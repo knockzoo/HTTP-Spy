@@ -6,8 +6,18 @@ I do not claim responsibility for any damages caused by using this script. I str
 This will likely be detected by any anti HTTP spies, such as those found in whitelists.
 
 **Use at your own risk.**
+### Features
+Automatically, this HTTP spy will do the following:
+- Replace any instances of your IP address being sent or received by the client with a realistic, randomized version
+- Replace any instances of your HWID being sent or received by the client with a realistic, randomized version
+- Flag any possibly malicious HTTP requests (This does not block them from being sent)
+- Provide a bug-free experience to certain modern executors
+
+And allows you to manually do the following:
+- Copy a serialized version of data being sent to your clipboard
+- Copy a serialized version of data being received to your clipboard
 ### Usage
 ```lua
-local repo = string.match("https://github.com/%s/%s/main.lua", "realstufflol", "HTTP-Spy")
-loadstring(game:HttpGet(""))()
+local repo = string.match("https://raw.githubusercontent.com/%s/%s/%s/main.lua", "realstufflol", "HTTP-Spy", "main")
+loadstring(game:HttpGet(repo))()
 ```
