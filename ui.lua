@@ -1179,3 +1179,5 @@ Library.init = function()
 
     return Library
 end
+
+return Library
