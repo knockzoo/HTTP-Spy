@@ -494,11 +494,12 @@ Library.BuildUI = function(icon, title)
                 Size = UDim2.new(0, 670, 0, 400),
                 ZIndex = 3,
                 Name = "content"
-            }),
-            New("UIListLayout", {
-                Padding = UDim.new(0, 8),
-                HorizontalAlignment = Enum.HorizontalAlignment.Center,
-                SortOrder = Enum.SortOrder.LayoutOrder
+            }, {
+                New("UIListLayout", {
+                    Padding = UDim.new(0, 8),
+                    HorizontalAlignment = Enum.HorizontalAlignment.Center,
+                    SortOrder = Enum.SortOrder.LayoutOrder
+                })
             }),
             New("ImageLabel", {
                 Image = "rbxassetid://9886919127",
