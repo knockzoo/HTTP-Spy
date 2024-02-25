@@ -1,1 +1,1181 @@
-local a={["_ScreenGui"]=Instance.new("ScreenGui"),["_Frame"]=Instance.new("Frame"),["_UICorner"]=Instance.new("UICorner"),["_UIStroke"]=Instance.new("UIStroke"),["_close"]=Instance.new("ImageButton"),["_UICorner1"]=Instance.new("UICorner"),["_collapse"]=Instance.new("ImageButton"),["_UICorner2"]=Instance.new("UICorner"),["_minimize"]=Instance.new("ImageButton"),["_UICorner3"]=Instance.new("UICorner"),["_content"]=Instance.new("ScrollingFrame"),["_UIListLayout"]=Instance.new("UIListLayout"),["_dropshadow"]=Instance.new("ImageLabel"),["_logo"]=Instance.new("ImageLabel"),["_title"]=Instance.new("TextLabel"),["_clock"]=Instance.new("TextLabel"),["_LocalScript"]=Instance.new("LocalScript"),["_blur"]=Instance.new("ModuleScript"),["_storage"]=Instance.new("Folder"),["_logframe"]=Instance.new("Frame"),["_UICorner4"]=Instance.new("UICorner"),["_url"]=Instance.new("TextLabel"),["_method"]=Instance.new("TextLabel"),["_received"]=Instance.new("TextLabel"),["_copy"]=Instance.new("ImageButton"),["_UICorner5"]=Instance.new("UICorner"),["_UIStroke1"]=Instance.new("UIStroke"),["_sent"]=Instance.new("TextLabel"),["_copy1"]=Instance.new("ImageButton"),["_UIStroke2"]=Instance.new("UIStroke"),["_UICorner6"]=Instance.new("UICorner"),["_flagged"]=Instance.new("TextLabel"),["_UIStroke3"]=Instance.new("UIStroke"),["_UIGradientTop"]=Instance.new("UIGradient"),["_UIGradientTop1"]=Instance.new("UIGradient"),["_notification"]=Instance.new("Frame"),["_UICorner7"]=Instance.new("UICorner"),["_UIStroke4"]=Instance.new("UIStroke"),["_dropshadow1"]=Instance.new("ImageLabel"),["_title1"]=Instance.new("TextLabel"),["_description"]=Instance.new("TextLabel")}a["_ScreenGui"].Parent=game:GetService("CoreGui")a["_Frame"].AnchorPoint=Vector2.new(0.5,0.5)a["_Frame"].BackgroundColor3=Color3.fromRGB(24.00000236928463,26.00000225007534,27.000002190470695)a["_Frame"].BackgroundTransparency=0.20000000298023224;a["_Frame"].Position=UDim2.new(0.5,0,0.5,0)a["_Frame"].Size=UDim2.new(0,700,0,500)a["_Frame"].ZIndex=2;a["_Frame"].Parent=a["_ScreenGui"]a["_UICorner"].Parent=a["_Frame"]a["_UIStroke"].Color=Color3.fromRGB(72.00000330805779,72.00000330805779,72.00000330805779)a["_UIStroke"].Thickness=2;a["_UIStroke"].Parent=a["_Frame"]a["_close"].Image="rbxassetid://14964754255"a["_close"].ImageColor3=Color3.fromRGB(206.0000029206276,206.0000029206276,206.0000029206276)a["_close"].ScaleType=Enum.ScaleType.Slice;a["_close"].SliceCenter=Rect.new(1,1,15,15)a["_close"].AnchorPoint=Vector2.new(0.5,0.5)a["_close"].BackgroundColor3=Color3.fromRGB(255,12.000001184642315,50.00000461935997)a["_close"].BackgroundTransparency=1;a["_close"].BorderColor3=Color3.fromRGB(0,0,0)a["_close"].BorderSizePixel=0;a["_close"].Position=UDim2.new(0.961428583,0,0.0500000007,0)a["_close"].Size=UDim2.new(0,30,0,30)a["_close"].ZIndex=2;a["_close"].Name="close"a["_close"].Parent=a["_Frame"]a["_UICorner1"].CornerRadius=UDim.new(0,3)a["_UICorner1"].Parent=a["_close"]a["_collapse"].Image="rbxassetid://9886659001"a["_collapse"].ImageColor3=Color3.fromRGB(206.0000029206276,206.0000029206276,206.0000029206276)a["_collapse"].ScaleType=Enum.ScaleType.Slice;a["_collapse"].SliceCenter=Rect.new(1,1,15,15)a["_collapse"].AnchorPoint=Vector2.new(0.5,0.5)a["_collapse"].BackgroundColor3=Color3.fromRGB(212.00001776218414,212.00001776218414,212.00001776218414)a["_collapse"].BackgroundTransparency=1;a["_collapse"].BorderColor3=Color3.fromRGB(0,0,0)a["_collapse"].BorderSizePixel=0;a["_collapse"].Position=UDim2.new(0.918571413,0,0.0500000007,0)a["_collapse"].Size=UDim2.new(0,30,0,30)a["_collapse"].ZIndex=2;a["_collapse"].Name="collapse"a["_collapse"].Parent=a["_Frame"]a["_UICorner2"].CornerRadius=UDim.new(0,3)a["_UICorner2"].Parent=a["_collapse"]a["_minimize"].Image="rbxassetid://9886659276"a["_minimize"].ImageColor3=Color3.fromRGB(206.0000029206276,206.0000029206276,206.0000029206276)a["_minimize"].ScaleType=Enum.ScaleType.Slice;a["_minimize"].SliceCenter=Rect.new(1,1,15,15)a["_minimize"].AnchorPoint=Vector2.new(0.5,0.5)a["_minimize"].BackgroundColor3=Color3.fromRGB(212.00001776218414,212.00001776218414,212.00001776218414)a["_minimize"].BackgroundTransparency=1;a["_minimize"].BorderColor3=Color3.fromRGB(0,0,0)a["_minimize"].BorderSizePixel=0;a["_minimize"].Position=UDim2.new(0.875714302,0,0.0500000007,0)a["_minimize"].Size=UDim2.new(0,30,0,30)a["_minimize"].ZIndex=2;a["_minimize"].Name="minimize"a["_minimize"].Parent=a["_Frame"]a["_UICorner3"].CornerRadius=UDim.new(0,3)a["_UICorner3"].Parent=a["_minimize"]a["_content"].AutomaticCanvasSize=Enum.AutomaticSize.Y;a["_content"].CanvasSize=UDim2.new(0,0,0,0)a["_content"].ScrollBarImageColor3=Color3.fromRGB(0,0,0)a["_content"].ScrollBarThickness=0;a["_content"].Active=true;a["_content"].AnchorPoint=Vector2.new(0.5,0.5)a["_content"].BackgroundColor3=Color3.fromRGB(255,255,255)a["_content"].BackgroundTransparency=1;a["_content"].BorderColor3=Color3.fromRGB(0,0,0)a["_content"].BorderSizePixel=0;a["_content"].Position=UDim2.new(0.5,0,0.550000012,0)a["_content"].Size=UDim2.new(0,670,0,400)a["_content"].ZIndex=3;a["_content"].Name="content"a["_content"].Parent=a["_Frame"]a["_UIListLayout"].Padding=UDim.new(0,8)a["_UIListLayout"].HorizontalAlignment=Enum.HorizontalAlignment.Center;a["_UIListLayout"].SortOrder=Enum.SortOrder.LayoutOrder;a["_UIListLayout"].Parent=a["_content"]a["_dropshadow"].Image="rbxassetid://9886919127"a["_dropshadow"].ScaleType=Enum.ScaleType.Slice;a["_dropshadow"].SliceCenter=Rect.new(60,60,166,166)a["_dropshadow"].AnchorPoint=Vector2.new(0.5,0.5)a["_dropshadow"].BackgroundColor3=Color3.fromRGB(255,255,255)a["_dropshadow"].BackgroundTransparency=1;a["_dropshadow"].BorderColor3=Color3.fromRGB(0,0,0)a["_dropshadow"].BorderSizePixel=0;a["_dropshadow"].Position=UDim2.new(0.5,0,0.5,0)a["_dropshadow"].Size=UDim2.new(1,110,1,110)a["_dropshadow"].Name="dropshadow"a["_dropshadow"].Parent=a["_Frame"]a["_logo"].Image="rbxassetid://16194969601"a["_logo"].AnchorPoint=Vector2.new(0.5,0.5)a["_logo"].BackgroundColor3=Color3.fromRGB(255,255,255)a["_logo"].BackgroundTransparency=1;a["_logo"].BorderColor3=Color3.fromRGB(0,0,0)a["_logo"].BorderSizePixel=0;a["_logo"].Position=UDim2.new(0.0500000007,0,0.0500000007,0)a["_logo"].Size=UDim2.new(0,40,0,40)a["_logo"].ZIndex=2;a["_logo"].Name="logo"a["_logo"].Parent=a["_Frame"]a["_title"].Font=Enum.Font.GothamBold;a["_title"].Text="HTTP Spy [Lite]"a["_title"].TextColor3=Color3.fromRGB(206.0000029206276,206.0000029206276,206.0000029206276)a["_title"].TextSize=18;a["_title"].TextXAlignment=Enum.TextXAlignment.Left;a["_title"].AnchorPoint=Vector2.new(0.5,0.5)a["_title"].BackgroundColor3=Color3.fromRGB(255,255,255)a["_title"].BackgroundTransparency=1;a["_title"].BorderColor3=Color3.fromRGB(0,0,0)a["_title"].BorderSizePixel=0;a["_title"].Position=UDim2.new(0.230000004,0,0.0500000007,0)a["_title"].Size=UDim2.new(0,200,0,26)a["_title"].ZIndex=2;a["_title"].Name="title"a["_title"].Parent=a["_Frame"]a["_clock"].Font=Enum.Font.GothamBold;a["_clock"].TextColor3=Color3.fromRGB(216.00001752376556,216.00001752376556,216.00001752376556)a["_clock"].TextDirection=Enum.TextDirection.LeftToRight;a["_clock"].TextSize=18;a["_clock"].TextTransparency=1;a["_clock"].AnchorPoint=Vector2.new(0.5,0.5)a["_clock"].BackgroundColor3=Color3.fromRGB(255,255,255)a["_clock"].BackgroundTransparency=1;a["_clock"].BorderColor3=Color3.fromRGB(0,0,0)a["_clock"].BorderSizePixel=0;a["_clock"].Position=UDim2.new(0.5,0,0.5,0)a["_clock"].Size=UDim2.new(0,200,0,30)a["_clock"].ZIndex=2;a["_clock"].Name="clock"a["_clock"].Parent=a["_Frame"]a["_storage"].Name="storage"a["_storage"].Parent=a["_ScreenGui"]a["_logframe"].BackgroundColor3=Color3.fromRGB(45.000002071261406,45.000002071261406,48.00000201165676)a["_logframe"].BackgroundTransparency=0.1;a["_logframe"].BorderColor3=Color3.fromRGB(0,0,0)a["_logframe"].BorderSizePixel=0;a["_logframe"].Position=UDim2.new(0.00839832053,0,0.0256097559,0)a["_logframe"].Size=UDim2.new(0,658,0,98)a["_logframe"].Visible=false;a["_logframe"].ZIndex=2;a["_logframe"].Name="logframe"a["_logframe"].Parent=a["_storage"]a["_UICorner4"].Parent=a["_logframe"]a["_url"].Font=Enum.Font.Gotham;a["_url"].Text="URL: https://example.com"a["_url"].TextColor3=Color3.fromRGB(206.000018119812,207.00001806020737,207.00001806020737)a["_url"].TextSize=16;a["_url"].TextXAlignment=Enum.TextXAlignment.Left;a["_url"].BackgroundColor3=Color3.fromRGB(255,255,255)a["_url"].BackgroundTransparency=1;a["_url"].BorderColor3=Color3.fromRGB(0,0,0)a["_url"].BorderSizePixel=0;a["_url"].Position=UDim2.new(0.0164179113,0,0.0900000036,0)a["_url"].Size=UDim2.new(0,400,0,24)a["_url"].ZIndex=2;a["_url"].Name="url"a["_url"].Parent=a["_logframe"]a["_url"].TextTruncate=1;a["_method"].Font=Enum.Font.Gotham;a["_method"].Text="Method: GET"a["_method"].TextColor3=Color3.fromRGB(177.0000046491623,177.0000046491623,177.0000046491623)a["_method"].TextSize=14;a["_method"].TextXAlignment=Enum.TextXAlignment.Left;a["_method"].BackgroundColor3=Color3.fromRGB(255,255,255)a["_method"].BackgroundTransparency=1;a["_method"].BorderColor3=Color3.fromRGB(0,0,0)a["_method"].BorderSizePixel=0;a["_method"].Position=UDim2.new(0.0164179113,0,0.330000013,0)a["_method"].Size=UDim2.new(0,611,0,19)a["_method"].ZIndex=2;a["_method"].Name="method"a["_method"].Parent=a["_logframe"]a["_received"].Font=Enum.Font.Gotham;a["_received"].Text="Received"a["_received"].TextColor3=Color3.fromRGB(206.000018119812,207.00001806020737,207.00001806020737)a["_received"].TextSize=16;a["_received"].TextXAlignment=Enum.TextXAlignment.Left;a["_received"].BackgroundColor3=Color3.fromRGB(255,255,255)a["_received"].BackgroundTransparency=1;a["_received"].BorderColor3=Color3.fromRGB(0,0,0)a["_received"].BorderSizePixel=0;a["_received"].Position=UDim2.new(0.864179075,0,0.129999995,0)a["_received"].Size=UDim2.new(0,80,0,20)a["_received"].ZIndex=2;a["_received"].Name="received"a["_received"].Parent=a["_logframe"]a["_copy"].Image="rbxassetid://13739190982"a["_copy"].ImageColor3=Color3.fromRGB(224.0000170469284,224.0000170469284,225.00001698732376)a["_copy"].BackgroundColor3=Color3.fromRGB(49.00000087916851,52.000000700354576,59.00000028312206)a["_copy"].BackgroundTransparency=0.5;a["_copy"].BorderColor3=Color3.fromRGB(0,0,0)a["_copy"].BorderSizePixel=0;a["_copy"].Position=UDim2.new(-0.474999994,0,-0.349999994,0)a["_copy"].Size=UDim2.new(0,30,0,30)a["_copy"].ZIndex=2;a["_copy"].Name="copy"a["_copy"].Parent=a["_received"]a["_UICorner5"].CornerRadius=UDim.new(0,3)a["_UICorner5"].Parent=a["_copy"]a["_UIStroke1"].Color=Color3.fromRGB(84.00000259280205,86.00000247359276,90.00000223517418)a["_UIStroke1"].Parent=a["_copy"]a["_sent"].Font=Enum.Font.Gotham;a["_sent"].Text="Sent"a["_sent"].TextColor3=Color3.fromRGB(206.000018119812,207.00001806020737,207.00001806020737)a["_sent"].TextSize=16;a["_sent"].TextXAlignment=Enum.TextXAlignment.Left;a["_sent"].BackgroundColor3=Color3.fromRGB(255,255,255)a["_sent"].BackgroundTransparency=1;a["_sent"].BorderColor3=Color3.fromRGB(0,0,0)a["_sent"].BorderSizePixel=0;a["_sent"].Position=UDim2.new(0.864179075,0,0.50999999,0)a["_sent"].Size=UDim2.new(0,80,0,20)a["_sent"].ZIndex=2;a["_sent"].Name="sent"a["_sent"].Parent=a["_logframe"]a["_copy1"].Image="rbxassetid://13739190982"a["_copy1"].ImageColor3=Color3.fromRGB(224.0000170469284,224.0000170469284,225.00001698732376)a["_copy1"].BackgroundColor3=Color3.fromRGB(49.00000087916851,52.000000700354576,59.00000028312206)a["_copy1"].BackgroundTransparency=0.5;a["_copy1"].BorderColor3=Color3.fromRGB(0,0,0)a["_copy1"].BorderSizePixel=0;a["_copy1"].Position=UDim2.new(-0.474999994,0,-0.25,0)a["_copy1"].Size=UDim2.new(0,30,0,30)a["_copy1"].ZIndex=2;a["_copy1"].Name="copy"a["_copy1"].Parent=a["_sent"]a["_UIStroke2"].Color=Color3.fromRGB(84.00000259280205,86.00000247359276,90.00000223517418)a["_UIStroke2"].Parent=a["_copy1"]a["_UICorner6"].CornerRadius=UDim.new(0,3)a["_UICorner6"].Parent=a["_copy1"]a["_flagged"].Font=Enum.Font.Gotham;a["_flagged"].Text="Flagged: False"a["_flagged"].TextColor3=Color3.fromRGB(177.0000046491623,177.0000046491623,177.0000046491623)a["_flagged"].TextSize=14;a["_flagged"].TextXAlignment=Enum.TextXAlignment.Left;a["_flagged"].BackgroundColor3=Color3.fromRGB(255,255,255)a["_flagged"].BackgroundTransparency=1;a["_flagged"].BorderColor3=Color3.fromRGB(0,0,0)a["_flagged"].BorderSizePixel=0;a["_flagged"].Position=UDim2.new(0.0164179113,0,0.519999981,0)a["_flagged"].Size=UDim2.new(0,611,0,19)a["_flagged"].ZIndex=2;a["_flagged"].Name="flagged"a["_flagged"].Parent=a["_logframe"]a["_UIStroke3"].Color=Color3.fromRGB(84.00000259280205,86.00000247359276,90.00000223517418)a["_UIStroke3"].Parent=a["_logframe"]a["_UIGradientTop"].Enabled=false;a["_UIGradientTop"].Rotation=-90;a["_UIGradientTop"].Transparency=NumberSequence.new{NumberSequenceKeypoint.new(0,0),NumberSequenceKeypoint.new(0.9114713668823242,0),NumberSequenceKeypoint.new(1,1)}a["_UIGradientTop"].Name="UIGradientTop"a["_UIGradientTop"].Parent=a["_UIStroke3"]a["_UIGradientTop1"].Enabled=false;a["_UIGradientTop1"].Rotation=-90;a["_UIGradientTop1"].Transparency=NumberSequence.new{NumberSequenceKeypoint.new(0,0),NumberSequenceKeypoint.new(0.9114713668823242,0),NumberSequenceKeypoint.new(1,1)}a["_UIGradientTop1"].Name="UIGradientTop"a["_UIGradientTop1"].Parent=a["_logframe"]a["_notification"].AnchorPoint=Vector2.new(0.5,0.5)a["_notification"].BackgroundColor3=Color3.fromRGB(32.00000189244747,34.00000177323818,36.00000165402889)a["_notification"].BackgroundTransparency=0.20000000298023224;a["_notification"].BorderColor3=Color3.fromRGB(0,0,0)a["_notification"].BorderSizePixel=0;a["_notification"].Position=UDim2.new(0.899999976,0,0.899999976,0)a["_notification"].Size=UDim2.new(0,250,0,90)a["_notification"].Visible=false;a["_notification"].Name="notification"a["_notification"].Parent=a["_storage"]a["_UICorner7"].Parent=a["_notification"]a["_UIStroke4"].Color=Color3.fromRGB(72.00000330805779,72.00000330805779,72.00000330805779)a["_UIStroke4"].Thickness=2;a["_UIStroke4"].Parent=a["_notification"]a["_dropshadow1"].Image="rbxassetid://9886919127"a["_dropshadow1"].ScaleType=Enum.ScaleType.Slice;a["_dropshadow1"].SliceCenter=Rect.new(60,60,166,166)a["_dropshadow1"].AnchorPoint=Vector2.new(0.5,0.5)a["_dropshadow1"].BackgroundColor3=Color3.fromRGB(255,255,255)a["_dropshadow1"].BackgroundTransparency=1;a["_dropshadow1"].BorderColor3=Color3.fromRGB(0,0,0)a["_dropshadow1"].BorderSizePixel=0;a["_dropshadow1"].Position=UDim2.new(0.5,0,0.5,0)a["_dropshadow1"].Size=UDim2.new(1,110,1,110)a["_dropshadow1"].Name="dropshadow"a["_dropshadow1"].Parent=a["_notification"]a["_title1"].Font=Enum.Font.GothamBold;a["_title1"].Text="notif title"a["_title1"].TextColor3=Color3.fromRGB(206.000018119812,206.000018119812,206.000018119812)a["_title1"].TextSize=16;a["_title1"].TextXAlignment=Enum.TextXAlignment.Left;a["_title1"].AnchorPoint=Vector2.new(0.5,0.5)a["_title1"].BackgroundColor3=Color3.fromRGB(255,255,255)a["_title1"].BackgroundTransparency=1;a["_title1"].BorderColor3=Color3.fromRGB(0,0,0)a["_title1"].BorderSizePixel=0;a["_title1"].Position=UDim2.new(0.437999994,0,0.216666669,0)a["_title1"].Size=UDim2.new(0,200,0,26)a["_title1"].ZIndex=2;a["_title1"].Name="title"a["_title1"].Parent=a["_notification"]a["_description"].Font=Enum.Font.Gotham;a["_description"].Text="notif description"a["_description"].TextColor3=Color3.fromRGB(177.0000046491623,177.0000046491623,177.0000046491623)a["_description"].TextSize=14;a["_description"].TextWrapped=true;a["_description"].TextXAlignment=Enum.TextXAlignment.Left;a["_description"].TextYAlignment=Enum.TextYAlignment.Top;a["_description"].BackgroundColor3=Color3.fromRGB(255,255,255)a["_description"].BackgroundTransparency=1;a["_description"].BorderColor3=Color3.fromRGB(0,0,0)a["_description"].BorderSizePixel=0;a["_description"].Position=UDim2.new(0.0364179686,0,0.352222353,0)a["_description"].Size=UDim2.new(0,232,0,50)a["_description"].ZIndex=2;a["_description"].Name="description"a["_description"].Parent=a["_notification"]local b={}local c=Instance.new("LocalScript")c.Name="LocalScript"c.Parent=a["_ScreenGui"]local d=require;local require=function(e)local f=b[e]if f then return f()end;return d(e)end;repeat task.wait()until game:IsLoaded()local g=game.TweenService;local h=game.UserInputService;local i=a['_ScreenGui']local j=i.Frame;local k=j.title;local l=j.close;local m=j.minimize;local n=j.collapse;local o=j.content;local p=j.logo;local q=j.clock;local r=Instance.new("ScreenGui",i.Parent)local s=i:WaitForChild("storage"):WaitForChild("notification")local t=i.storage:WaitForChild("logframe")s.Parent=r;local u={n,l,m}local v={Registry={},Signals={},TransparencyMotors={},DefaultProperties={ScreenGui={ResetOnSpawn=false,ZIndexBehavior=Enum.ZIndexBehavior.Sibling},Frame={BackgroundColor3=Color3.new(1,1,1),BorderColor3=Color3.new(0,0,0),BorderSizePixel=0},ScrollingFrame={BackgroundColor3=Color3.new(1,1,1),BorderColor3=Color3.new(0,0,0),ScrollBarImageColor3=Color3.new(0,0,0)},TextLabel={BackgroundColor3=Color3.new(1,1,1),BorderColor3=Color3.new(0,0,0),Font=Enum.Font.SourceSans,Text="",TextColor3=Color3.new(0,0,0),BackgroundTransparency=1,TextSize=14},TextButton={BackgroundColor3=Color3.new(1,1,1),BorderColor3=Color3.new(0,0,0),AutoButtonColor=false,Font=Enum.Font.SourceSans,Text="",TextColor3=Color3.new(0,0,0),TextSize=14},TextBox={BackgroundColor3=Color3.new(1,1,1),BorderColor3=Color3.new(0,0,0),ClearTextOnFocus=false,Font=Enum.Font.SourceSans,Text="",TextColor3=Color3.new(0,0,0),TextSize=14},ImageLabel={BackgroundTransparency=1,BackgroundColor3=Color3.new(1,1,1),BorderColor3=Color3.new(0,0,0),BorderSizePixel=0},ImageButton={BackgroundColor3=Color3.new(1,1,1),BorderColor3=Color3.new(0,0,0),AutoButtonColor=false},CanvasGroup={BackgroundColor3=Color3.new(1,1,1),BorderColor3=Color3.new(0,0,0),BorderSizePixel=0}}}local function w(x,y)if y.ThemeTag then v.AddThemeObject(x,y.ThemeTag)end end;function v.AddSignal(z,A)table.insert(v.Signals,z:Connect(A))end;function v.Disconnect()for B=#v.Signals,1,-1 do local C=table.remove(v.Signals,B)C:Disconnect()end end;function v.AddThemeObject(x,D)local B=#v.Registry+1;local E={Object=x,Properties=D,Idx=B}v.Registry[x]=E;v.UpdateTheme()return x end;function v.OverrideTag(x,D)v.Registry[x].Properties=D;v.UpdateTheme()end;function v.New(F,D,G)local x=Instance.new(F)for F,H in next,v.DefaultProperties[F]or{}do x[F]=H end;for F,H in next,D or{}do if F~="ThemeTag"then x[F]=H end end;for I,J in next,G or{}do J.Parent=x end;w(x,D)return x end;local function K()local L=v.New("Part",{Name="Body",Color=Color3.new(0,0,0),Material=Enum.Material.Glass,Size=Vector3.new(1,1,0),Anchored=true,CanCollide=false,Locked=true,CastShadow=false,Transparency=0.98},{v.New("SpecialMesh",{MeshType=Enum.MeshType.Brick,Offset=Vector3.new(0,0,-0.000001)})})return L end;local function M(N,O,P,Q,R)return(N-O)*(R-Q)/(P-O)+Q end;local function S(T,U)local V=game:GetService("Workspace").CurrentCamera:ScreenPointToRay(T.X,T.Y)return V.Origin+V.Direction*U end;local function W()local X=game:GetService("Workspace").CurrentCamera.ViewportSize.Y;return M(X,0,2560,8,56)end;local function Y(U)local Z={}U=U or 0.001;local _={topLeft=Vector2.new(),topRight=Vector2.new(),bottomRight=Vector2.new()}local a0=K()a0.Parent=workspace;local function a1(a2,a3)_.topLeft=a3;_.topRight=a3+Vector2.new(a2.X,0)_.bottomRight=a3+a2 end;local a4=function()local a5=game:GetService("Workspace").CurrentCamera;if a5 then a5=a5.CFrame end;local a6=a5;if not a6 then a6=CFrame.new()end;local a7=a6;local a8=_.topLeft;local a9=_.topRight;local aa=_.bottomRight;local ab=S(a8,U)local ac=S(a9,U)local ad=S(aa,U)local ae=(ac-ab).Magnitude;local af=(ac-ad).Magnitude;a0.CFrame=CFrame.fromMatrix((ab+ad)/2,a7.XVector,a7.YVector,a7.ZVector)a0.Mesh.Scale=Vector3.new(ae,af,0)end;local function ag(ah)local ai=W()local a2=ah.AbsoluteSize-Vector2.new(ai,ai)local a3=ah.AbsolutePosition+Vector2.new(ai/2,ai/2)a1(a2,a3)task.spawn(a4)end;local function aj()local a7=game:GetService("Workspace").CurrentCamera;if not a7 then return end;table.insert(Z,a7:GetPropertyChangedSignal("CFrame"):Connect(a4))table.insert(Z,a7:GetPropertyChangedSignal("ViewportSize"):Connect(a4))table.insert(Z,a7:GetPropertyChangedSignal("FieldOfView"):Connect(a4))task.spawn(a4)end;a0.Destroying:Connect(function()for I,ak in Z do pcall(function()ak:Disconnect()end)end end)aj()return ag,a0 end;local function al(U)local am={}local ag,a0=Y(U)local an=v.New("Frame",{BackgroundTransparency=1,Size=UDim2.fromScale(1,1)})v.AddSignal(an:GetPropertyChangedSignal("AbsolutePosition"),function()ag(an)end)v.AddSignal(an:GetPropertyChangedSignal("AbsoluteSize"),function()ag(an)end)am.AddParent=function(ao)v.AddSignal(ao:GetPropertyChangedSignal("Visible"),function()am.SetVisibility(ao.Visible)end)end;am.SetVisibility=function(H)a0.Transparency=H and 0.98 or 1 end;am.Frame=an;am.Model=a0;return am end;local ap=v.New;local function aq(ar)local aq={}aq.Frame=ap("Frame",{Size=UDim2.fromScale(1,1),BackgroundTransparency=0.9,BackgroundColor3=Color3.fromRGB(255,255,255),BorderSizePixel=0},{ap("ImageLabel",{Image="rbxassetid://8992230677",ScaleType="Slice",SliceCenter=Rect.new(Vector2.new(99,99),Vector2.new(99,99)),AnchorPoint=Vector2.new(0.5,0.5),Size=UDim2.new(1,120,1,116),Position=UDim2.new(0.5,0,0.5,0),BackgroundTransparency=1,ImageColor3=Color3.fromRGB(0,0,0),ImageTransparency=0.7}),ap("UICorner",{CornerRadius=UDim.new(0,8)}),ap("Frame",{BackgroundTransparency=0.45,Size=UDim2.fromScale(1,1),Name="Background",ThemeTag={BackgroundColor3="AcrylicMain"}},{ap("UICorner",{CornerRadius=UDim.new(0,8)})}),ap("Frame",{BackgroundColor3=Color3.fromRGB(255,255,255),BackgroundTransparency=0.4,Size=UDim2.fromScale(1,1)},{ap("UICorner",{CornerRadius=UDim.new(0,8)}),ap("UIGradient",{Rotation=90,ThemeTag={Color="AcrylicGradient"}})}),ap("ImageLabel",{Image="rbxassetid://9968344105",ImageTransparency=0.98,ScaleType=Enum.ScaleType.Tile,TileSize=UDim2.new(0,128,0,128),Size=UDim2.fromScale(1,1),BackgroundTransparency=1},{ap("UICorner",{CornerRadius=UDim.new(0,8)})}),ap("ImageLabel",{Image="rbxassetid://9968344227",ImageTransparency=0.9,ScaleType=Enum.ScaleType.Tile,TileSize=UDim2.new(0,128,0,128),Size=UDim2.fromScale(1,1),BackgroundTransparency=1,ThemeTag={ImageTransparency="AcrylicNoise"}},{ap("UICorner",{CornerRadius=UDim.new(0,8)})}),ap("Frame",{BackgroundTransparency=1,Size=UDim2.fromScale(1,1),ZIndex=2},{ap("UICorner",{CornerRadius=UDim.new(0,8)}),ap("UIStroke",{Transparency=0.5,Thickness=1,ThemeTag={Color="AcrylicBorder"}})})})return aq end;local as={AcrylicBlur=al,CreateAcrylic=K,AcrylicPaint=aq}function as.init()local at=Instance.new("DepthOfFieldEffect")at.FarIntensity=0;at.InFocusRadius=0.1;at.NearIntensity=1;local au={}function as.Enable()for I,av in pairs(au)do av.Enabled=false end;at.Parent=game:GetService("Lighting")end;function as.Disable()for I,av in pairs(au)do av.Enabled=av.enabled end;at.Parent=nil end;local function aw()local function ax(ay)if ay:IsA("DepthOfFieldEffect")then au[ay]={enabled=ay.Enabled}end end;for I,az in pairs(game:GetService("Lighting"):GetChildren())do ax(az)end;if game:GetService("Workspace").CurrentCamera then for I,az in pairs(game:GetService("Workspace").CurrentCamera:GetChildren())do ax(az)end end end;aw()as.Enable()end;as.init()local aA=al;local aB=aA()aB.Frame.Parent=j;local aC=true;local aD=nil;local a3=nil;dragToggle=nil;dragInput=nil;dragStart=nil;dragPos=nil;function updateInput(aE)aD=aE.Position-dragStart;a3=UDim2.new(startPos.X.Scale,startPos.X.Offset+aD.X,startPos.Y.Scale,startPos.Y.Offset+aD.Y)g:Create(j,TweenInfo.new(.025),{Position=a3}):Play()end;j.InputBegan:Connect(function(aE)if(aE.UserInputType==Enum.UserInputType.MouseButton1 or aE.UserInputType==Enum.UserInputType.Touch)and aC then dragToggle=true;dragStart=aE.Position;startPos=j.Position;aE.Changed:Connect(function()if aE.UserInputState==Enum.UserInputState.End then dragToggle=false end end)end end)j.InputChanged:Connect(function(aE)if aE.UserInputType==Enum.UserInputType.MouseMovement or aE.UserInputType==Enum.UserInputType.Touch then dragInput=aE end end)h.InputChanged:Connect(function(aE)if aE==dragInput and dragToggle then updateInput(aE)end end)local aF=false;local aG=false;local aH=false;local aI={}local function aJ(e,aK)if pcall(function()local aL=e:GetPropertyChangedSignal(aK):Connect(function()end)aL:Disconnect()end)then return true else return false end end;local function aM()for aN,aO in pairs(o:GetChildren())do if aO:IsA("Frame")then task.spawn(function()g:Create(aO,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{BackgroundTransparency=0}):Play()task.wait(0.1)for I,e in pairs(aO:GetDescendants())do if aJ(e,'BackgroundTransparency')and aO.Name=='copy'then g:Create(e,TweenInfo.new(0.2,Enum.EasingStyle.Quart),{BackgroundTransparency=0.5}):Play()end;if e:IsA("UIStroke")then e.Enabled=true;e.Transparency=0 elseif e:IsA("UIGradient")then e.Enabled=true end;if aJ(e,'ImageTransparency')then g:Create(e,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{ImageTransparency=0}):Play()end;if aJ(e,'TextTransparency')then g:Create(e,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{TextTransparency=0}):Play()end end end)end end end;local function aP()for aN,aO in pairs(o:GetChildren())do if aO:IsA("Frame")then task.spawn(function()for I,e in pairs(aO:GetDescendants())do if aJ(e,'ImageTransparency')then g:Create(e,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{ImageTransparency=1}):Play()end;if aJ(e,'TextTransparency')then g:Create(e,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{TextTransparency=1}):Play()end;if aJ(e,'BackgroundTransparency')then g:Create(e,TweenInfo.new(0.2,Enum.EasingStyle.Quart),{BackgroundTransparency=1}):Play()end;if e:IsA("UIStroke")then e.Enabled=false;e.Transparency=1 elseif e:IsA("UIGradient")then e.Enabled=false end end;task.wait(0.1)g:Create(aO,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{BackgroundTransparency=1}):Play()end)end end end;local function aQ(aR)if aR then for aN,aO in pairs(aI)do aO:Disconnect()end end;g:Create(q,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{TextTransparency=1}):Play()aP()g:Create(j,TweenInfo.new(0.2,Enum.EasingStyle.Quart,Enum.EasingDirection.In),{Size=j.Size-UDim2.new(0,10,0,10)}):Play()for aN,aO in pairs({k,m,n,l,p})do if aJ(aO,'TextTransparency')then g:Create(aO,TweenInfo.new(0.2,Enum.EasingStyle.Quart),{TextTransparency=1}):Play()else g:Create(aO,TweenInfo.new(0.2,Enum.EasingStyle.Quart),{ImageTransparency=1}):Play()end;g:Create(aO,TweenInfo.new(0.2,Enum.EasingStyle.Quart),{BackgroundTransparency=1}):Play()end;task.wait(0.4)g:Create(j,TweenInfo.new(0.2,Enum.EasingStyle.Quart,Enum.EasingDirection.In),{BackgroundTransparency=1}):Play()task.wait(0.2)aB.SetVisibility()g:Create(j.dropshadow,TweenInfo.new(0.4,Enum.EasingStyle.Quart),{ImageTransparency=1}):Play()g:Create(j.UIStroke,TweenInfo.new(0.4,Enum.EasingStyle.Quart),{Transparency=1}):Play()task.wait(0.3)i.Enabled=false end;local function aS()i.Enabled=true;aB.SetVisibility(1)g:Create(j.dropshadow,TweenInfo.new(0.4,Enum.EasingStyle.Quart),{ImageTransparency=0}):Play()g:Create(j.UIStroke,TweenInfo.new(0.4,Enum.EasingStyle.Quart),{Transparency=0}):Play()task.wait(0.2)g:Create(j,TweenInfo.new(0.2,Enum.EasingStyle.Quart,Enum.EasingDirection.In),{BackgroundTransparency=0.2}):Play()task.wait(0.4)g:Create(j,TweenInfo.new(0.2,Enum.EasingStyle.Quart,Enum.EasingDirection.In),{Size=j.Size+UDim2.new(0,10,0,10)}):Play()for aN,aO in pairs({k,m,n,l,p})do if aJ(aO,'TextTransparency')then g:Create(aO,TweenInfo.new(0.4,Enum.EasingStyle.Quart),{TextTransparency=0}):Play()else g:Create(aO,TweenInfo.new(0.4,Enum.EasingStyle.Quart),{ImageTransparency=0}):Play()end end;if not aF then aM()else g:Create(q,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{TextTransparency=0}):Play()end end;local function aT(k,aU)s.Visible=true;for I,e in pairs(s:GetDescendants())do if aJ(e,'ImageTransparency')then e.ImageTransparency=1 end;if aJ(e,'TextTransparency')then e.TextTransparency=1 end;if aJ(e,'Transparency')then e.Transparency=1 end end;s['title'].Text=k;s['description'].Text=aU;task.spawn(function()g:Create(s,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{BackgroundTransparency=0.2}):Play()task.wait(0.1)for I,e in pairs(s:GetDescendants())do if aJ(e,'ImageTransparency')then g:Create(e,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{ImageTransparency=0}):Play()end;if aJ(e,'TextTransparency')then g:Create(e,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{TextTransparency=0}):Play()end end;g:Create(s.UIStroke,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{Transparency=0}):Play()end)task.spawn(function()task.wait(4)g:Create(s,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{BackgroundTransparency=1}):Play()task.wait(0.1)for I,e in pairs(s:GetDescendants())do if aJ(e,'ImageTransparency')then g:Create(e,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{ImageTransparency=1}):Play()end;if aJ(e,'TextTransparency')then g:Create(e,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{TextTransparency=1}):Play()end end;g:Create(s.UIStroke,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{Transparency=1}):Play()end)end;local function aV()g:Create(j,TweenInfo.new(0.2,Enum.EasingStyle.Quart,Enum.EasingDirection.In),{Size=j.Size+UDim2.new(0,10,0,10)}):Play()task.wait(0.2)g:Create(j,TweenInfo.new(0.2,Enum.EasingStyle.Quart,Enum.EasingDirection.In),{Size=j.Size-UDim2.new(0,10,0,10)}):Play()end;local aW=nil;local function aX()aV()if not aF then aW=j.Position;aC=false;aP()task.wait(0.3)for aN,aO in pairs({k,m,n,l,p})do g:Create(aO,TweenInfo.new(0.4,Enum.EasingStyle.Quart),{Position=aO.Position+UDim2.new(0,0,0.45,0)}):Play()end;g:Create(j,TweenInfo.new(0.4,Enum.EasingStyle.Linear),{Position=UDim2.new(0.5,0,0.95,0)}):Play()g:Create(j,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{Size=UDim2.new(0,700,0,50)}):Play()task.wait(0.3)g:Create(j,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{Size=UDim2.new(0.5,0,0,50)}):Play()task.wait(0.3)g:Create(k,TweenInfo.new(0.4,Enum.EasingStyle.Quart),{Position=k.Position-UDim2.new(0.071,0,0,0)}):Play()g:Create(p,TweenInfo.new(0.4,Enum.EasingStyle.Quart),{Position=p.Position-UDim2.new(0.02,0,0,0)}):Play()for aN,aO in pairs(u)do g:Create(aO,TweenInfo.new(0.4,Enum.EasingStyle.Quart),{Position=aO.Position+UDim2.new(0.015,0,0,0)}):Play()end;g:Create(q,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{TextTransparency=0}):Play()else g:Create(q,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{TextTransparency=1}):Play()for aN,aO in pairs(u)do g:Create(aO,TweenInfo.new(0.4,Enum.EasingStyle.Quart),{Position=aO.Position-UDim2.new(0.015,0,0,0)}):Play()end;g:Create(p,TweenInfo.new(0.4,Enum.EasingStyle.Quart),{Position=p.Position+UDim2.new(0.02,0,0,0)}):Play()g:Create(k,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{Position=k.Position+UDim2.new(0.071,0,0,0)}):Play()task.wait(0.3)g:Create(j,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{Size=UDim2.new(0,700,0,500)}):Play()g:Create(j,TweenInfo.new(0.4,Enum.EasingStyle.Quart),{Position=aW}):Play()for aN,aO in pairs({k,m,n,l,p})do g:Create(aO,TweenInfo.new(0.4,Enum.EasingStyle.Quart),{Position=aO.Position-UDim2.new(0,0,0.45,0)}):Play()end;task.wait(0.3)aM()aC=true end end;local function aY()aV()aQ()aT("UI Toggled","Press right control to re-open the UI.")end;table.insert(aI,n.MouseButton1Click:Connect(function()if aH then return end;aH=true;aX()aF=not aF;aH=false end))table.insert(aI,l.MouseButton1Click:Connect(function()if aH then return end;aH=true;aQ(true)aH=false end))table.insert(aI,m.MouseButton1Click:Connect(function()if aH then return end;aH=true;aG=true;aY()aH=false end))table.insert(aI,h.InputBegan:Connect(function(aE,aZ)if aE.KeyCode==Enum.KeyCode.RightControl then if aG then if aH then return end;aH=true;aS()aG=false;aH=false else print('not minimized')end end end))for aN,aO in pairs(u)do aO.MouseEnter:Connect(function()g:Create(aO,TweenInfo.new(0.2,Enum.EasingStyle.Quart),{ImageColor3=Color3.fromRGB(255,255,255)}):Play()g:Create(aO,TweenInfo.new(0.2,Enum.EasingStyle.Quart),{BackgroundTransparency=0.5}):Play()end)aO.MouseLeave:Connect(function()g:Create(aO,TweenInfo.new(0.2,Enum.EasingStyle.Quart),{ImageColor3=Color3.fromRGB(206,206,206)}):Play()g:Create(aO,TweenInfo.new(0.2,Enum.EasingStyle.Quart),{BackgroundTransparency=1}):Play()end)end;local function a_(e,b0)for aN,aO in pairs(e:GetDescendants())do if aO.Name==b0 then return aO end end end;local function b1(b2)local b3=setclipboard or copyclipboard;local b4,b5=pcall(b3,b2)if not b4 then local b6=""for aN=1,12 do b6=b6 ..string.char(math.random(96,111))end;print("Copied data is too large: saving to "..b6 ..'.txt')writefile(b6 ..'.txt',b2)end end;local b7=0;local function b8(b9,ba,bb,bc,bd)b7=b7+1;local be=t:Clone()be.Visible=true;be.Parent=o;be.Name=tostring(b7)if b7==1 then local bf=be.UIGradientTop;local bg=be.UIStroke.UIGradientTop;bf.Enabled=true;bg.Enabled=true else be.UIGradientTop:Destroy()be.UIStroke.UIGradientTop:Destroy()end;local bh=be.url;local bi=be.method;local bj=be.flagged;local bk=be.received.copy;local bl=be.sent.copy;for I,e in pairs(be:GetDescendants())do if aJ(e,'ImageTransparency')then e.ImageTransparency=1 end;if aJ(e,'TextTransparency')then e.TextTransparency=1 end end;be.BackgroundTransparency=1;bh.Text="Url: "..b9;bi.Text="Method: "..ba;bj.Text="Flagged: "..tostring(bb)be.sent:SetAttribute("content",tostring(bd))be.received:SetAttribute("content",tostring(bc))bk.MouseButton1Click:Connect(function()b1(tostring(bc))aT("Copied","Copied the received data.")aV()end)bl.MouseButton1Click:Connect(function()b1(tostring(bd))aT("Copied","Copied the sent data.")aV()end)g:Create(be,TweenInfo.new(0.5,Enum.EasingStyle.Quart),{BackgroundTransparency=0.5}):Play()task.wait(0.1)for I,e in pairs(be:GetDescendants())do if aJ(e,'ImageTransparency')then g:Create(e,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{ImageTransparency=0}):Play()end;if aJ(e,'TextTransparency')then g:Create(e,TweenInfo.new(0.3,Enum.EasingStyle.Quart),{TextTransparency=0}):Play()end end end;task.spawn(function()while task.wait(1)do q.Text=os.date("%x, %I:%M %p")end end)return{createlog=b8,notif=aT}
+local Services = {}
+setmetatable(Services, {
+    __index = function(self, index)
+        return game:GetService(index)
+    end
+})
+
+local wait = task.wait
+repeat wait() until game:IsLoaded()
+
+local TweenService = Services.TweenService
+local UserInputService = Services.UserInputService
+
+local Creator = {
+    Registry = {},
+    Signals = {},
+    TransparencyMotors = {},
+    DefaultProperties = {
+        ScreenGui = {
+            ResetOnSpawn = false,
+            ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+        },
+        Frame = {
+            BackgroundColor3 = Color3.new(1, 1, 1),
+            BorderColor3 = Color3.new(0, 0, 0),
+            BorderSizePixel = 0
+        },
+        ScrollingFrame = {
+            BackgroundColor3 = Color3.new(1, 1, 1),
+            BorderColor3 = Color3.new(0, 0, 0),
+            ScrollBarImageColor3 = Color3.new(0, 0, 0)
+        },
+        TextLabel = {
+            BackgroundColor3 = Color3.new(1, 1, 1),
+            BorderColor3 = Color3.new(0, 0, 0),
+            Font = Enum.Font.SourceSans,
+            Text = "",
+            TextColor3 = Color3.new(0, 0, 0),
+            BackgroundTransparency = 1,
+            TextSize = 14
+        },
+        TextButton = {
+            BackgroundColor3 = Color3.new(1, 1, 1),
+            BorderColor3 = Color3.new(0, 0, 0),
+            AutoButtonColor = false,
+            Font = Enum.Font.SourceSans,
+            Text = "",
+            TextColor3 = Color3.new(0, 0, 0),
+            TextSize = 14
+        },
+        TextBox = {
+            BackgroundColor3 = Color3.new(1, 1, 1),
+            BorderColor3 = Color3.new(0, 0, 0),
+            ClearTextOnFocus = false,
+            Font = Enum.Font.SourceSans,
+            Text = "",
+            TextColor3 = Color3.new(0, 0, 0),
+            TextSize = 14
+        },
+        ImageLabel = {
+            BackgroundTransparency = 1,
+            BackgroundColor3 = Color3.new(1, 1, 1),
+            BorderColor3 = Color3.new(0, 0, 0),
+            BorderSizePixel = 0
+        },
+        ImageButton = {
+            BackgroundColor3 = Color3.new(1, 1, 1),
+            BorderColor3 = Color3.new(0, 0, 0),
+            AutoButtonColor = false
+        },
+        CanvasGroup = {
+            BackgroundColor3 = Color3.new(1, 1, 1),
+            BorderColor3 = Color3.new(0, 0, 0),
+            BorderSizePixel = 0
+        }
+    }
+}
+
+local function ApplyCustomProps(Object, Props)
+    if Props.ThemeTag then
+        Creator.AddThemeObject(Object, Props.ThemeTag)
+    end
+end
+
+function Creator.AddSignal(Signal, Function)
+    table.insert(Creator.Signals, Signal:Connect(Function))
+end
+
+function Creator.Disconnect()
+    for Idx = #Creator.Signals, 1, -1 do
+        local Connection = table.remove(Creator.Signals, Idx)
+        Connection:Disconnect()
+    end
+end
+
+function Creator.AddThemeObject(Object, Properties)
+    local Idx = #Creator.Registry + 1
+    local Data = {
+        Object = Object,
+        Properties = Properties,
+        Idx = Idx
+    }
+
+    Creator.Registry[Object] = Data
+    Creator.UpdateTheme()
+    return Object
+end
+
+function Creator.OverrideTag(Object, Properties)
+    Creator.Registry[Object].Properties = Properties
+    Creator.UpdateTheme()
+end
+
+function Creator.New(Name, Properties, Children)
+    local Object = Instance.new(Name)
+
+    -- Default properties
+    for Name, Value in next, Creator.DefaultProperties[Name] or {} do
+        Object[Name] = Value
+    end
+
+    -- Properties
+    for Name, Value in next, Properties or {} do
+        if Name ~= "ThemeTag" then
+            Object[Name] = Value
+        end
+    end
+
+    -- Children
+    for _, Child in next, Children or {} do
+        Child.Parent = Object
+    end
+
+    ApplyCustomProps(Object, Properties)
+    return Object
+end
+
+local function createAcrylic()
+    local Part = Creator.New("Part", {
+        Name = "Body",
+        Color = Color3.new(0, 0, 0),
+        Material = Enum.Material.Glass,
+        Size = Vector3.new(1, 1, 0),
+        Anchored = true,
+        CanCollide = false,
+        Locked = true,
+        CastShadow = false,
+        Transparency = 0.98
+    }, { Creator.New("SpecialMesh", {
+        MeshType = Enum.MeshType.Brick,
+        Offset = Vector3.new(0, 0, -0.000001)
+    }) })
+
+    return Part
+end
+
+local function map(value, inMin, inMax, outMin, outMax)
+    return (value - inMin) * (outMax - outMin) / (inMax - inMin) + outMin
+end
+
+local function viewportPointToWorld(location, distance)
+    local unitRay = game:GetService("Workspace").CurrentCamera:ScreenPointToRay(location.X, location.Y)
+    return unitRay.Origin + unitRay.Direction * distance
+end
+
+local function getOffset()
+    local viewportSizeY = game:GetService("Workspace").CurrentCamera.ViewportSize.Y
+    return map(viewportSizeY, 0, 2560, 8, 56)
+end
+
+local function createAcrylicBlur(distance)
+    local cleanups = {}
+
+    distance = distance or 0.001
+    local positions = {
+        topLeft = Vector2.new(),
+        topRight = Vector2.new(),
+        bottomRight = Vector2.new()
+    }
+    local model = createAcrylic()
+    model.Parent = workspace
+
+    local function updatePositions(size, position)
+        positions.topLeft = position
+        positions.topRight = position + Vector2.new(size.X, 0)
+        positions.bottomRight = position + size
+    end
+
+    local render = function()
+        local res = game:GetService("Workspace").CurrentCamera
+        if res then
+            res = res.CFrame
+        end
+        local cond = res
+        if not cond then
+            cond = CFrame.new()
+        end
+
+        local camera = cond
+        local topLeft = positions.topLeft
+        local topRight = positions.topRight
+        local bottomRight = positions.bottomRight
+
+        local topLeft3D = viewportPointToWorld(topLeft, distance)
+        local topRight3D = viewportPointToWorld(topRight, distance)
+        local bottomRight3D = viewportPointToWorld(bottomRight, distance)
+
+        local width = (topRight3D - topLeft3D).Magnitude
+        local height = (topRight3D - bottomRight3D).Magnitude
+
+        model.CFrame =
+            CFrame.fromMatrix((topLeft3D + bottomRight3D) / 2, camera.XVector, camera.YVector, camera.ZVector)
+        model.Mesh.Scale = Vector3.new(width, height, 0)
+    end
+
+    local function onChange(rbx)
+        local offset = getOffset()
+        local size = rbx.AbsoluteSize - Vector2.new(offset, offset)
+        local position = rbx.AbsolutePosition + Vector2.new(offset / 2, offset / 2)
+
+        updatePositions(size, position)
+        task.spawn(render)
+    end
+
+    local function renderOnChange()
+        local camera = game:GetService("Workspace").CurrentCamera
+        if not camera then
+            return
+        end
+
+        table.insert(cleanups, camera:GetPropertyChangedSignal("CFrame"):Connect(render))
+        table.insert(cleanups, camera:GetPropertyChangedSignal("ViewportSize"):Connect(render))
+        table.insert(cleanups, camera:GetPropertyChangedSignal("FieldOfView"):Connect(render))
+        task.spawn(render)
+    end
+
+    model.Destroying:Connect(function()
+        for _, item in cleanups do
+            pcall(function()
+                item:Disconnect()
+            end)
+        end
+    end)
+
+    renderOnChange()
+
+    return onChange, model
+end
+
+local function AcrylicBlur(distance)
+    local Blur = {}
+    local onChange, model = createAcrylicBlur(distance)
+
+    local comp = Creator.New("Frame", {
+        BackgroundTransparency = 1,
+        Size = UDim2.fromScale(1, 1)
+    })
+
+    Creator.AddSignal(comp:GetPropertyChangedSignal("AbsolutePosition"), function()
+        onChange(comp)
+    end)
+
+    Creator.AddSignal(comp:GetPropertyChangedSignal("AbsoluteSize"), function()
+        onChange(comp)
+    end)
+
+    Blur.AddParent = function(Parent)
+        Creator.AddSignal(Parent:GetPropertyChangedSignal("Visible"), function()
+            Blur.SetVisibility(Parent.Visible)
+        end)
+    end
+
+    Blur.SetVisibility = function(Value)
+        model.Transparency = Value and 0.98 or 1
+    end
+
+    Blur.Frame = comp
+    Blur.Model = model
+
+    return Blur
+end
+
+local New = Creator.New
+
+local function AcrylicPaint(props)
+    local AcrylicPaint = {}
+
+    AcrylicPaint.Frame = New("Frame", {
+        Size = UDim2.fromScale(1, 1),
+        BackgroundTransparency = 0.9,
+        BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+        BorderSizePixel = 0
+    }, { New("ImageLabel", {
+        Image = "rbxassetid://8992230677",
+        ScaleType = "Slice",
+        SliceCenter = Rect.new(Vector2.new(99, 99), Vector2.new(99, 99)),
+        AnchorPoint = Vector2.new(0.5, 0.5),
+        Size = UDim2.new(1, 120, 1, 116),
+        Position = UDim2.new(0.5, 0, 0.5, 0),
+        BackgroundTransparency = 1,
+        ImageColor3 = Color3.fromRGB(0, 0, 0),
+        ImageTransparency = 0.7
+    }), New("UICorner", {
+        CornerRadius = UDim.new(0, 8)
+    }), New("Frame", {
+        BackgroundTransparency = 0.45,
+        Size = UDim2.fromScale(1, 1),
+        Name = "Background",
+        ThemeTag = {
+            BackgroundColor3 = "AcrylicMain"
+        }
+    }, { New("UICorner", {
+        CornerRadius = UDim.new(0, 8)
+    }) }), New("Frame", {
+        BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+        BackgroundTransparency = 0.4,
+        Size = UDim2.fromScale(1, 1)
+    }, { New("UICorner", {
+        CornerRadius = UDim.new(0, 8)
+    }), New("UIGradient", {
+        Rotation = 90,
+        ThemeTag = {
+            Color = "AcrylicGradient"
+        }
+    }) }), New("ImageLabel", {
+        Image = "rbxassetid://9968344105",
+        ImageTransparency = 0.98,
+        ScaleType = Enum.ScaleType.Tile,
+        TileSize = UDim2.new(0, 128, 0, 128),
+        Size = UDim2.fromScale(1, 1),
+        BackgroundTransparency = 1
+    }, { New("UICorner", {
+        CornerRadius = UDim.new(0, 8)
+    }) }), New("ImageLabel", {
+        Image = "rbxassetid://9968344227",
+        ImageTransparency = 0.9,
+        ScaleType = Enum.ScaleType.Tile,
+        TileSize = UDim2.new(0, 128, 0, 128),
+        Size = UDim2.fromScale(1, 1),
+        BackgroundTransparency = 1,
+        ThemeTag = {
+            ImageTransparency = "AcrylicNoise"
+        }
+    }, { New("UICorner", {
+        CornerRadius = UDim.new(0, 8)
+    }) }), New("Frame", {
+        BackgroundTransparency = 1,
+        Size = UDim2.fromScale(1, 1),
+        ZIndex = 2
+    }, { New("UICorner", {
+        CornerRadius = UDim.new(0, 8)
+    }), New("UIStroke", {
+        Transparency = 0.5,
+        Thickness = 1,
+        ThemeTag = {
+            Color = "AcrylicBorder"
+        }
+    }) }) })
+
+    return AcrylicPaint
+end
+
+local Acrylic = {
+    AcrylicBlur = AcrylicBlur,
+    CreateAcrylic = createAcrylic,
+    AcrylicPaint = AcrylicPaint
+}
+
+function Acrylic.init()
+    local baseEffect = Instance.new("DepthOfFieldEffect")
+    baseEffect.FarIntensity = 0
+    baseEffect.InFocusRadius = 0.1
+    baseEffect.NearIntensity = 1
+
+    local depthOfFieldDefaults = {}
+
+    function Acrylic.Enable()
+        for _, effect in pairs(depthOfFieldDefaults) do
+            effect.Enabled = false
+        end
+        baseEffect.Parent = game:GetService("Lighting")
+    end
+
+    function Acrylic.Disable()
+        for _, effect in pairs(depthOfFieldDefaults) do
+            effect.Enabled = effect.enabled
+        end
+        baseEffect.Parent = nil
+    end
+
+    local function registerDefaults()
+        local function register(object)
+            if object:IsA("DepthOfFieldEffect") then
+                depthOfFieldDefaults[object] = {
+                    enabled = object.Enabled
+                }
+            end
+        end
+
+        for _, child in pairs(game:GetService("Lighting"):GetChildren()) do
+            register(child)
+        end
+
+        if game:GetService("Workspace").CurrentCamera then
+            for _, child in pairs(game:GetService("Workspace").CurrentCamera:GetChildren()) do
+                register(child)
+            end
+        end
+    end
+
+    registerDefaults()
+    Acrylic.Enable()
+end
+
+local UDim2 = {
+    new = UDim2.new,
+    fromScale = UDim2.fromScale,
+    fromOffset = UDim2.fromOffset,
+    center = UDim2.new(0.5, 0,
+        0.5, 0)
+}
+local anchor = Vector2.new(0.5, 0.5)
+local gotham = Enum.Font.Gotham
+
+local function CreateTopbarIcon(name, image, pos)
+    return New("ImageButton", {
+            Name = name,
+            Image = image,
+            ImageColor3 = Color3.fromRGB(206, 206, 206),
+            ScaleType = Enum.ScaleType.Slice,
+            SliceCenter = Rect.new(1, 1, 15, 15),
+            AnchorPoint = anchor,
+            BackgroundColor3 = Color3.fromRGB(255, 12, 50),
+            BackgroundTransparency = 1,
+            Position = pos,
+            ZIndex = 2
+        },
+        {
+            New("UICorner", {
+                CornerRadius = UDim.new(0, 3)
+            })
+        }
+    )
+end
+
+local function CreateTween(object, time, style, property, value)
+    local tween = TweenService:Create(object, TweenInfo.new(time, Enum.EasingStyle[style]), {[property] = value})
+    tween.Completed:Connect(function()
+        tween:Destroy()
+    end)
+
+    return tween
+end
+
+local function HasProperty(object, property) -- this probably isnt the best way of doing it, but i couldnt find any object methods for doing this
+    local s, r = pcall(function()
+        object:GetPropertyChangedSignal(property):Connect(function ()
+            
+        end):Disconnect()
+    end)
+
+    return s
+end
+
+local Library = {}
+Library.BuildUI = function(icon, title)
+    local ScreenGui = Creator.New("ScreenGui", {
+        Parent = Services.CoreGui
+    }, {
+        New("Frame", {
+            ZIndex = 2,
+            Size = UDim2.new(0, 700, 0, 500),
+            Position = UDim2.center,
+            BackgroundTransparency = 0.2,
+            BackgroundColor3 = Color3.fromRGB(24, 26, 27),
+            AnchorPoint = anchor
+        }, {
+            New("UICorner"),
+            New("UIStroke", {
+                Color = Color3.fromRGB(72, 72, 72),
+                Thickness = 2
+            }),
+            New("ScrollingFrame", {
+                AutomaticCanvasSize = Enum.AutomaticSize.Y,
+                CanvasSize = UDim2.new(0, 0, 0, 0),
+                ScrollBarThickness = 0,
+                Active = true,
+                AnchorPoint = anchor,
+                BackgroundTransparency = 1,
+                BorderSizePixel = 0,
+                Position = UDim2.new(0.5, 0, 0.55, 0),
+                Size = UDim2.new(0, 670, 0, 400),
+                ZIndex = 3,
+                Name = "content"
+            }),
+            New("UIListLayout", {
+                Padding = UDim2.new(0, 8),
+                HorizontalAlignment = Enum.HorizontalAlignment.Center,
+                SortOrder = Enum.SortOrder.LayoutOrder
+            }),
+            New("ImageLabel", {
+                Image = "rbxassetid://9886919127",
+                ScaleType = Enum.ScaleType.Slice,
+                SliceCenter = Rect.new(60, 60, 166, 166),
+                AnchorPoint = anchor,
+                BackgroundTransparency = 1,
+                BorderSizePixel = 0,
+                Position = UDim2.center,
+                Size = UDim2.new(1, 110, 1, 110),
+                Name = "dropshadow"
+            }),
+            New("ImageLabel", {
+                Image = icon,
+                AnchorPoint = anchor,
+                BackgroundTransparency = 1,
+                BorderSizePixel = 0,
+                Position = UDim2.new(0.05, 0, 0.05),
+                Size = UDim2.new(0, 40, 0, 40),
+                ZIndex = 2,
+                Name = "logo"
+            }),
+            New("TextLabel", {
+                Font = gotham,
+                Text = title,
+                TextColor3 = Color3.fromRGB(206, 206, 206),
+                TextSize = 18,
+                TextXAlignment = Enum.TextXAlignment.Left,
+                AnchorPoint = center,
+                BackgroundTransparency = 1,
+                BorderSizePixel = 0,
+                Position = UDim2.new(0.23, 0, 0.05, 0),
+                Size = UDim2.new(0, 200, 0, 26),
+                ZIndex = 2,
+                Name = "title"
+            }),
+            New("TextLabel", {
+                Font = gotham,
+                TextColor3 = Color3.fromRGB(216, 216, 216),
+                TextDirection = Enum.TextDirection.LeftToRight,
+                TextSize = 16,
+                TextTransparency = 1,
+                AnchorPoint = anchor,
+                BackgroundTransparency = 1,
+                BorderSizePixel = 0,
+                Position = UDim2.center,
+                Size = UDim2.new(0, 200, 0, 30),
+                ZIndex = 2,
+                Name = "clock"
+            })
+        })
+    })
+
+    local Frame = ScreenGui.Frame
+
+    local icons = {
+        ['close'] = CreateTopbarIcon("close", "rbxassetid://14964754255", UDim2.new(0.97, 0, 0.05, 0)),
+        ['collapse'] = CreateTopbarIcon("collapse", "rbxassetid://9886659001", UDim2.new(0.92, 0, 0.05, 0)),
+        ['minimize'] = CreateTopbarIcon("minimize", "rbxassetid://9886659276", UDim2.new(0.87, 0, 0.05, 0))
+    }
+
+    for i,v in pairs(icons) do
+        v.Parent = Frame
+    end
+
+    local blureffect = AcrylicBlur()
+    blureffect.Parent = Frame
+
+    local CanBeDragged = true -- <-- got this from a roblox extension
+    local Delta = nil
+    local Position = nil
+
+    local dragToggle = nil
+    local dragInput = nil
+    local dragStart = nil
+    local dragPos = nil
+
+    local function updateInput(input)
+        Delta = input.Position - dragStart
+        Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+        TweenService:Create(frame, TweenInfo.new(.025), { Position = Position }):Play()
+    end
+    
+    Frame.InputBegan:Connect(function(input)
+        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and CanBeDragged then
+            dragToggle = true
+            dragStart = input.Position
+            startPos = Frame.Position
+            input.Changed:Connect(function()
+                if (input.UserInputState == Enum.UserInputState.End) then
+                    dragToggle = false
+                end
+            end)
+        end
+    end)
+    
+    Frame.InputChanged:Connect(function(input)
+        if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+            dragInput = input
+        end
+    end)
+    
+    UserInputService.InputChanged:Connect(function(input)
+        if (input == dragInput and dragToggle) then
+            updateInput(input)
+        end
+    end)
+
+    -- animations
+
+    local Collapsed = false
+    local Minimized = false
+    local Debounce = false
+
+    local Content = Frame.content
+
+    local Clock = Frame.clock
+    local Title = Frame.title
+    local Logo = Frame.logo
+    local Minimize = Frame.minimize
+    local Collapse = Frame.collapse
+    local Close = Frame.close
+
+    local TopbarContents = {Logo, Title, Clock, Minimize, Collapse, Close}
+    local TopbarButtons = {Minimize, Collapse, Close}
+
+    local function RenderFrames()
+        for i,v in pairs(content:GetChildren()) do
+            if v:IsA("Frame") then
+                task.spawn(function()
+                    CreateTween(v, 0.3, 'Quart', 'BackgroundTransparency', 0):Play()
+
+                    for _, object in pairs(v:GetDescendants()) do
+                        if HasProperty(object, 'BackgroundTransparency') and v.Name == 'copy' then
+                            CreateTween(object, 0.2, 'Quart', 'BackgroundTransparency', 0.5):Play()
+                        end
+
+                        if object:IsA("UIStroke") then
+                            object.Enabled = true
+                            object.Transparency = 0
+                        elseif object:IsA("UIGradient") then
+                            object.Enabled = true
+                        end
+
+                        if HasProperty(object, 'TextTransparency') then
+                            CreateTween(object, 0.2, 'Quart', 'TextTransparency', 0)
+                        end
+
+                        if HasProperty(object, 'ImageTransparency') then
+                            CreateTween(object, 0.2, 'Quart', 'ImageTransparency', 0)
+                        end
+                    end
+                end)
+            end
+        end
+    end
+
+    local function DerenderFrames()
+        for i,v in pairs(content:GetChildren()) do
+            if v:IsA("Frame") then
+                task.spawn(function()
+                    for _, object in pairs(v:GetDescendants()) do
+                        if HasProperty(object, 'ImageTransparency') then
+                            CreateTween(object, 0.2, 'Quart', 'ImageTransparency', 1)
+                        end
+
+                        if HasProperty(object, 'TextTransparency') then
+                            CreateTween(object, 0.2, 'Quart', 'TextTransparency', 1)
+                        end
+
+                        if object:IsA("UIStroke") then
+                            object.Enabled = false
+                            object.Transparency = 1
+                        elseif object:IsA("UIGradient") then
+                            object.Enabled = false
+                        end
+
+                        if HasProperty(object, 'BackgroundTransparency') and v.Name == 'copy' then
+                            CreateTween(object, 0.2, 'Quart', 'BackgroundTransparency', 1):Play()
+                        end
+                    end
+                    
+                    wait(0.1)
+                    CreateTween(v, 0.3, 'Quart', 'BackgroundTransparency', 1):Play()
+                end)
+            end
+        end
+    end
+
+    local function RenderWindow()
+        ScreenGui.Enabled = true
+
+        blureffect:SetVisibility(1)
+        CreateTween(Frame.UIStroke, 0.4, 'Quart', 'Transparency', 0):Play()
+        CreateTween(Frame.dropshadow, 0.4, 'Quart', 'ImageTransparency', 0):Play()
+
+        wait(0.2)
+        CreateTween(Frame, 0.2, 'Quart', 'BackgroundTransparency', 0):Play()
+        CreateTween(Frame, 0.2, 'Quart', 'Size', Frame.Size + UDim2.new(0, 10, 0, 10)):Play()
+
+        for i,v in pairs(TopbarContents) do
+            if HasProperty(v, 'TextTransparency') then
+                CreateTween(v, 0.2, 'Quart', 'TextTransparency', 0):Play()
+            else -- everything either has texttransparency or imagetransparency
+                CreateTween(v, 0.2, 'Quart', 'ImageTransparency', 0):Play()
+            end
+
+            CreateTween(v, 0.2, 'Quart', 'BackgroundTransparency', 0)
+        end
+
+        if not Collapsed then
+            RenderFrames()
+        else
+            CreateTween(Clock, 0.3, 'Quart', 'TextTransparency', 0)
+        end
+    end
+
+    local function DerenderWindow(fullclose)
+        if fullclose then
+            Creator.Disconnect()
+            Library.ClockLoop.close()
+        end
+
+        CreateTween(Clock, 0.3, 'Quart', 'TextTransparency', 1)
+
+        DerenderFrames()
+        CreateTween(Frame, 0.2, 'Quart', 'Size', Frame.Size - UDim2.new(0, 10, 0, 10)):Play()
+
+        for i,v in pairs(TopbarContents) do
+            if HasProperty(v, 'TextTransparency') then
+                CreateTween(v, 0.2, 'Quart', 'TextTransparency', 1):Play()
+            else -- everything either has texttransparency or imagetransparency
+                CreateTween(v, 0.2, 'Quart', 'ImageTransparency', 1):Play()
+            end
+
+            CreateTween(v, 0.2, 'Quart', 'BackgroundTransparency', 1)
+        end
+
+        wait(0.4)
+        CreateTween(Frame, 0.2, 'Quart', 'BackgroundTransparency', 1):Play()
+        wait(0.2)
+
+        blureffect:SetVisibility()
+        CreateTween(Frame.dropshadow, 0.4, 'Quart', 'ImageTransparency', 1):Play()
+        CreateTween(Frame.UIStroke, 0.4, 'Quart', 'Transparency', 1):Play()
+
+        wait(0.3)
+        ScreenGui.Enabled = false
+    end
+
+    local ReturnTo = nil
+    local function CollapseCallback()
+        Library.Interaction()
+
+        if not Collapsed then
+            ReturnTo = Frame.Position
+            CanBeDragged = false
+
+            DerenderFrames()
+            wait(0.3)
+
+            for i,v in pairs({Title, Minimize, Collapse, Close, Logo}) do
+                CreateTween(v, 0.4, 'Quart', 'Position', v.Position + UDim2.new(0, 0, 0.45, 0)):Play()
+            end
+
+            CreateTween(Frame, 0.4, 'Linear', 'Position', UDim2.new(0.5, 0, 0.95, 0)):Play()
+            CreateTween(Frame, 0.3, 'Quart', 'Size', UDim2.new(0, 700, 0, 50)):Play()
+
+            wait(0.3)
+            CreateTween(Frame, 0.3, 'Quart', 'Size', UDim2.new(0.5, 0, 0, 50)):Play()
+
+            wait(0.3)
+
+            CreateTween(Title, 0.4, 'Quart', 'Position', Title.Position + UDim2.new(0.071, 0, 0, 0)):Play()
+            CreateTween(Logo, 0.4, 'Quart', 'Position', Logo.Position + UDim2.new(0.02, 0, 0, 0)):Play()
+
+            for i,v in pairs(TopbarButtons) do
+                CreateTween(v, 0.4, 'Quart', 'Position', v.Position + UDim2.new(0.015, 0, 0, 0)):Play()
+            end
+
+            CreateTween(Clock, 0.3, 'Quart', 'TextTransparency', 0):Play()
+        else
+            CreateTween(Clock, 0.3, 'Quart', 'TextTransparency', 1):Play()
+
+            for i,v in pairs(TopbarButtons) do
+                CreateTween(v, 0.4, 'Quart', 'Position', v.Position - UDim2.new(0.015, 0, 0, 0)):Play()
+            end
+
+            CreateTween(Title, 0.4, 'Quart', 'Position', Title.Position - UDim2.new(0.071, 0, 0, 0)):Play()
+            CreateTween(Logo, 0.4, 'Quart', 'Position', Logo.Position - UDim2.new(0.02, 0, 0, 0)):Play()
+
+            wait(0.3)
+            CreateTween(Frame, 0.3, 'Quart', 'Size', UDim2.new(0, 700, 0, 500)):Play()
+            CreateTween(Frame, 0.4, 'Quart', 'Position', ReturnTo):Play()
+
+            for i,v in pairs({Title, Minimize, Collapse, Close, Logo}) do
+                CreateTween(v, 0.4, 'Quart', 'Position', v.Position - UDim2.new(0, 0, 0.45, 0)):Play()
+            end
+
+            wait(0.3)
+            RenderFrames()
+
+            CanBeDragged = true
+        end
+    end
+
+    local function MinimizeCallback()
+        Library.Interaction()
+
+        DerenderWindow()
+        Library.BuildNotif('UI Toggled', 'Press right control to re-open the UI.')
+    end
+
+    Creator.AddSignal(Close.MouseButton1Click, function()
+        if Debounce then return end
+        Debounce = true
+
+        DerenderWindow(true)
+        Debounce = false
+    end)
+
+    Creator.AddSignal(Minimize.MouseButton1Click, function()
+        if Debounce then return end
+        Debounce = true
+
+        MinimizeCallback()
+        Debounce = false
+    end)
+
+    Creator.AddSignal(Collapse.MouseButton1Click, function()
+        if Debounce then return end
+        Debounce = true
+
+        CollapseCallback()
+        Debounce = false
+    end)
+
+    Creator.AddSignal(UserInputService.InputBegan, function(input)
+        if input.KeyCode == Enum.KeyCode.RightControl then
+            if Minimized then
+                if Debounce then return end
+                Debounce = true
+
+                RenderWindow()
+                Minimized = false
+                Debounce = false
+            end
+        end
+    end)
+
+    for i,v in pairs(TopbarButtons) do
+        Creator.AddSignal(v.MouseEnter, function()
+            CreateTween(v, 0.2, 'Quart', 'ImageColor3', Color3.fromRGB(255, 255, 255)):Play()
+            CreateTween(v, 0.2, 'Quart', 'BackgroundTransparency', 0.5):Play()
+        end)
+
+        Creator.AddSignal(v.MouseLeave, function()
+            CreateTween(v, 0.2, 'Quart', 'ImageColor3', Color3.fromRGB(206, 206, 206)):Play()
+            CreateTween(v, 0.2, 'Quart', 'BackgroundTransparency', 1):Play()
+        end)
+    end
+
+    return ScreenGui
+end
+
+Library.Interaction = function()
+    CreateTween(Library.Main.Frame, 0.2, 'Quart', 'Size', Library.Main.Frame.Size + UDim2.new(0, 10, 0, 10)):Play()
+    wait(0.2)
+    CreateTween(Library.Main.Frame, 0.2, 'Quart', 'Size', Library.Main.Frame.Size - UDim2.new(0, 10, 0, 10)):Play()
+end
+
+local format = string.format
+local copy = setclipboard or copyclipboard or print
+
+local NumLogs = 0 -- for the slight transparency at the top of the first log
+Library.BuildLog = function(url, method, flagged, sent, received)
+    local log = New("Frame", {
+        BackgroundColor3 = Color3.fromRGB(45, 45, 48),
+        BackgroundTransparency = 0.1,
+        BorderSizePixel = 0,
+        Position = UDim2.center,
+        Size = UDim2.new(0, 658, 0, 98),
+        Visible = true,
+        ZIndex = 2,
+        Name = "logframe"
+    }, {
+        New("UICorner"),
+        New("UIGradient", {
+            Enabled = false,
+            Rotation = -90,
+            Transparency = NumberSequence.new({
+                NumberSequenceKeypoint.new(0, 0),
+                NumberSequenceKeypoint.new(0.9, 0),
+                NumberSequenceKeypoint.new(1, 1)
+            }),
+            Name = "UIGradientTop"
+        }),
+        New("UIStroke", {
+            Color = Color3.fromRGB(84, 86, 90)
+        }, {
+            New("UIGradient", {
+                Enabled = false,
+                Rotation = -90,
+                Transparency = NumberSequence.new({
+                    NumberSequenceKeypoint.new(0, 0),
+                    NumberSequenceKeypoint.new(0.9, 0),
+                    NumberSequenceKeypoint.new(1, 1)
+                }),
+                Name = "UIGradientTop"
+            })
+        }),
+        New("TextLabel", {
+            Font = gotham,
+            Text = url,
+            TextColor3 = Color3.fromRGB(206, 207, 207),
+            TextSize = 16,
+            TextXAlignment = Enum.TextXAlignment.Left,
+            BackgroundTransparency = 1,
+            BorderSizePixel = 0,
+            Position = UDim2.new(0.01, 0, 0.09, 0),
+            Size = UDim2.new(0, 400, 0, 24),
+            ZIndex = 2,
+            Name = "url",
+            TextTruncate = 1
+        }),
+        New("TextLabel", {
+            Font = gotham,
+            Text = format("Method: %s", method),
+            TextColor3 = Color3.fromRGB(177, 177, 177),
+            TextSize = 14, TextXAlignment = Enum.TextXAlignment.Left,
+            BackgroundTransparency = 1,
+            BorderSizePixel = 0,
+            Position = UDim2.new(0.01, 0, 0.3, 0),
+            Size = UDim2.new(0, 611, 0, 19),
+            ZIndex = 2,
+            Name = "method"
+        }),
+        New("TextLabel", {
+            Font = gotham,
+            Text = format("Flagged: %s", flagged),
+            TextColor3 = Color3.fromRGB(177, 177, 177),
+            TextSize = 14, TextXAlignment = Enum.TextXAlignment.Left,
+            BackgroundTransparency = 1,
+            BorderSizePixel = 0,
+            Position = UDim2.new(0.01, 0, 0.3, 0),
+            Size = UDim2.new(0, 611, 0, 19),
+            ZIndex = 2,
+            Name = "flagged"
+        }),
+        New("TextLabel", {
+            Font = gotham,
+            Text = "Received",
+            TextColor3 = Color.fromRGB(206, 207, 207),
+            TextSize = 16,
+            TextXAlignment = Enum.TextXAlignment.Left,
+            BackgroundTransparency = 1,
+            BorderSizePixel = 0,
+            Position = UDim2.new(0.86, 0, 0.12, 0),
+            Size = UDim2.new(0, 80, 0, 20),
+            ZIndex = 2,
+            Name = "received"
+        },{
+            New("ImageButton", {
+                Image = "rbxassetid://13739190982",
+                ImageColor3 = Color3.fromRGB(224, 224, 225),
+                BackgroundColor3 = Color3.fromRGB(49, 52, 59),
+                BackgroundTransparency = 0.5,
+                BorderSizePixel = 0,
+                Position = UDim2.new(-0.47, 0, -0.34, 0),
+                Size = UDim2.new(0, 30, 0, 30),
+                ZIndex = 2,
+                Name = "copy"
+            }),
+            New("UICorner", {
+                CornerRadius = UDim.new(0, 3)
+            }),
+            New("UIStroke", {
+                Color = Color3.fromRGB(84, 86, 90)
+            })
+        }),
+        New("TextLabel", {
+            Font = gotham,
+            Text = "Sent",
+            TextColor3 = Color.fromRGB(206, 207, 207),
+            TextSize = 16,
+            TextXAlignment = Enum.TextXAlignment.Left,
+            BackgroundTransparency = 1,
+            BorderSizePixel = 0,
+            Position = UDim2.new(0.86, 0, 0.5, 0),
+            Size = UDim2.new(0, 80, 0, 20),
+            ZIndex = 2,
+            Name = "sent"
+        },{
+            New("ImageButton", {
+                Image = "rbxassetid://13739190982",
+                ImageColor3 = Color3.fromRGB(224, 224, 225),
+                BackgroundColor3 = Color3.fromRGB(49, 52, 59),
+                BackgroundTransparency = 0.5,
+                BorderSizePixel = 0,
+                Position = UDim2.new(-0.47, 0, -0.34, 0),
+                Size = UDim2.new(0, 30, 0, 30),
+                ZIndex = 2,
+                Name = "copy"
+            }),
+            New("UICorner", {
+                CornerRadius = UDim.new(0, 3)
+            }),
+            New("UIStroke", {
+                Color = Color3.fromRGB(84, 86, 90)
+            })
+        })
+    })
+
+    Creator.AddSignal(log.sent.copy.MouseButton1Click, function()
+        copy(sent)
+    end)
+
+    Creator.AddSignal(log.received.copy.MouseButton1Click, function()
+        copy(received)
+    end)
+
+    NumLogs = NumLogs + 1
+
+    if NumLogs == 1 then -- i know this is a really shitty way of doing it, but i cant be bothered to do it properly
+        local Gradient1, Gradient2 = log.UIGradientTop, log.UIStroke.UIGradientTop
+        Gradient1.Enabled = true
+        Gradient2.Enabled = true
+    else
+        log.UIGradientTop:Destroy()
+        log.UIStroke.UIGradientTop:Destroy()
+    end
+
+    for _, object in pairs(log:GetDescendants()) do
+        if HasProperty(object, 'ImageTransparency') then
+            object.ImageTransparency = 1
+        end
+
+        if HasProperty(object, 'TextTransparency') then
+            object.TextTransparency = 1
+        end
+    end
+
+    log.BackgroundTransparency = 1
+    log.Parent = Library.Main.Frame.content
+
+    CreateTween(log, 0.5, 'Qart', 'BackgroundTransparency', 0.2):Play()
+    for _, object in pairs(log:GetDescendants()) do
+        if HasProperty(object, 'ImageTransparency') then
+            CreateTween(object, 0.3, 'Quart', 'ImageTransparency', 0):Play()
+        end
+
+        if HasProperty(object, 'TextTransparency') then
+            CreateTween(object, 0.3, 'Quart', 'TextTransparency', 0):Play()
+        end
+    end
+
+    return log
+end
+
+Library.BuildNotif = function(title, contents)
+    local notification = New("Frame", {
+        AnchorPoint = anchor,
+        BackgroundColor3 = Color3.fromRGB(32, 34, 36),
+        BackgroundTransparency = 0.2,
+        BorderSizePixel = 0,
+        Position = UDim2.new(0.9, 0, 0.9, 0),
+        Size = UDim2.new(0, 250, 0, 90),
+        Visible = true,
+        Name = "notification"
+    },{
+        New("UICorner"),
+        New("UIStroke", {
+            Color = Color3.fromRGB(72, 72, 72),
+            Thickness = 2
+        }),
+        New("ImageLabel", {
+            Image = "rbxassetid://9886919127",
+            ScaleType = Enum.ScaleType.Slice,
+            SliceCenter = Rect.new(60, 60, 166, 166),
+            AnchorPoint = anchor,
+            BackgroundTransparency = 1,
+            BorderSizePixel = 0,
+            Position = UDim2.center,
+            Size = UDim2.new(1, 110, 1, 110),
+            Name = "dropshadow"
+        }),
+        New("TextLabel", {
+            Font = gotham,
+            Text = title,
+            TextColor3 = Color3.fromRGB(206, 206, 206),
+            TextSize = 16,
+            TextXAlignment = Enum.TextXAlignment.Left,
+            BackgroundTransparency = 1,
+            BorderSizePixel = 0,
+            Position = UDim2.new(0.43, 0, 0.21, 0),
+            Size = UDim2.new(0, 200, 0, 26),
+            ZIndex = 2,
+            Name = "title"
+        }),
+        New("TextLabel", {
+            Font = gotham,
+            Text = contents,
+            TextColor3 = Color3.fromRGB(177, 177, 177),
+            TextSize = 14,
+            TextWrapped = true,
+            TextXAlignment = Enum.TextXAlignment.Left,
+            TextYAlignment = Enum.TextYAlignment.Top,
+            BackgroundTransparency = 1,
+            BorderSizePixel = 0,
+            Position = UDim2.new(0.03, 0, 0.35, 0),
+            Size = UDim2.new(0, 235, 0, 50),
+            ZIndex = 2,
+            Name = "description"
+        })
+    })
+
+    notification.BackgroundTransparency = 1
+    for _, object in pairs(notification:GetDescendants()) do
+        if HasProperty(object, 'ImageTransparency') then
+            object.ImageTransparency = 1
+        end
+
+        if HasProperty(object, 'TextTransparency') then
+            object.TextTransparency = 1
+        end
+
+        if HasProperty(object, 'Transparency') then
+            object.Transparency = 1
+        end
+    end
+
+    task.spawn(function()
+        CreateTween(notification, 0.3, 'Quart', 'BackgroundTransparency', 0.2):Play()
+        wait(0.1)
+
+        for _, object in pairs(notification:GetDescendants()) do
+            if HasProperty(object, 'ImageTransparency') then
+                object.ImageTransparency = 0
+            end
+    
+            if HasProperty(object, 'TextTransparency') then
+                object.TextTransparency = 0
+            end
+    
+            if HasProperty(object, 'Transparency') then
+                object.Transparency = 0
+            end
+        end
+
+        task.delay(4, function()
+            for _, object in pairs(notification:GetDescendants()) do
+                if HasProperty(object, 'ImageTransparency') then
+                    object.ImageTransparency = 1
+                end
+        
+                if HasProperty(object, 'TextTransparency') then
+                    object.TextTransparency = 1
+                end
+        
+                if HasProperty(object, 'Transparency') then
+                    object.Transparency = 1
+                end
+            end
+
+            wait(0.1)
+            CreateTween(notification, 0.3, 'Quart', 'BackgroundTransparency', 1):Play()
+        end)
+    end)
+
+    return notification
+end
+
+Library.init = function()
+    Library.Main = Library.BuildUI()
+    Library.ClockLoop = task.spawn(function()
+        while wait(1) do
+            Library.Main.Frame.clock.Text = os.date("%x, %I:%M %p")
+        end
+    end)
+
+    return Library
+end
