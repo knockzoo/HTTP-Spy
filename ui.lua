@@ -112,6 +112,8 @@ function Creator.OverrideTag(Object, Properties)
 end
 
 function Creator.New(Name, Properties, Children)
+    Properties = Properties or {}
+    Children = Children or {}
     local Object = Instance.new(Name)
 
     -- Default properties
