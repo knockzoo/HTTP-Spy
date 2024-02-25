@@ -1,4 +1,5 @@
-local uilib = loadstring(game:HttpGet("https://raw.githubusercontent.com/realstufflol/HTTP-Spy/main/ui.lua"))()
+local uilib = loadstring(game:HttpGet("https://raw.githubusercontent.com/realstufflol/HTTP-Spy/testing/ui.lua"))()
+uilib.init()
 
 local executor, version = identifyexecutor()
 local functions = { request, http_request, (http and http.request) or nil }
@@ -348,7 +349,7 @@ local hook = function(args, old)
 
     if getmetatable(newargs) then
         if not pcall(setmetatable(newargs, { __pairs = function(self) return next, self, nil end })) then
-            uilib.notif("Error", "The anti HTTP spy used has anti-dump methods preventing secure logging from being possible.")
+            uilib.BuildNotif("Error", "The anti HTTP spy used has anti-dump methods preventing secure logging from being possible.")
             return old(newargs)
         end
     end
@@ -383,7 +384,7 @@ local hook = function(args, old)
         received = serializer({ Headers = result.Headers, Body = result.Body })
     end
 
-    uilib.createlog(newargs.Url, tostring(newargs.Method), tostring(flagged), received, sent)
+    uilib.BuildLog(newargs.Url, tostring(newargs.Method), tostring(flagged), received, sent)
 
     return result
 end
