@@ -1,4 +1,4 @@
-local uilib = loadstring(game:HttpGet("https://e-z.tools/p/raw/wkpmvpnvnjvz54fs0"))()
+local uilib = loadstring(game:HttpGet("https://raw.githubusercontent.com/realstufflol/HTTP-Spy/main/ui.lua"))()
 
 local executor, version = identifyexecutor()
 local functions = { request, http_request, (http and http.request) or nil }
