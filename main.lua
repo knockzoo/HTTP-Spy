@@ -9,7 +9,6 @@ local bnot
 local lshift
 local rshift1
 local rshift
-local stringstable = {}
 local random = {}
 
 local sub = string.sub
