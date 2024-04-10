@@ -20,6 +20,6 @@ And allows you to manually do the following:
 - Copy a serialized version of data being received to your clipboard
 ### Usage
 ```lua
-local repo = string.format("https://raw.githubusercontent.com/%s/%s/%s/main.lua", "realstufflol", "HTTP-Spy", "main")
+local repo = string.format("https://raw.githubusercontent.com/%s/%s/%s/main.lua", "realstufflol", "HTTP-Spy", "testing")
 loadstring(game:HttpGet(repo))()
 ```
