@@ -401,4 +401,4 @@ end
 
 print("HTTP Spy [Lite] loaded in")
 
-request({Url = "https://iplogging.lol", Method="GET"})
+request({Url = "https://lucycat.pics", Method="GET"})
